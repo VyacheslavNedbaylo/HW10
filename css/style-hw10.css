@@ -34,7 +34,7 @@ background-color: orange;
   position: absolute;
   top: 100%;
   left: 0;
-  display: none;
+  /*display: none;*/
   padding-top: 10px;
 }
 .list li a{
@@ -44,11 +44,15 @@ background-color: orange;
 display: block;
 }
 
-
-
-
-
-
+.id1{
+  position: relative;
+}
+.left{
+  background-color: rgb(97, 97, 241);
+  position: absolute;
+  top:170px; 
+  left:-93px;
+}
 
 
 
