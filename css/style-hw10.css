@@ -14,6 +14,13 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto-Medium.woff2) format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
 header{
   background-color: #90f2af; 
@@ -69,9 +76,10 @@ display: block;
   position: relative;
 }
 .left{
+  font-family: 'Roboto';
   position: absolute;
   top:0px; 
-  left:-90px;
+  left:-84px;
   display: none;
 }
 .layo:hover .left{
